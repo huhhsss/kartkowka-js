@@ -1,0 +1,303 @@
+//1.Napisz funkcję generującą listę zawierającą wszystkie liczby znajdujące się w tabliczce mnożenia. Zwróć tą listę. 
+
+function zad1(){
+    let i = 0
+    let e = 1
+
+    while (i<10){
+        let k = 1
+        let str = ""
+
+
+        while (k<=10){
+            let f = k*e
+            str +=(String(f))
+            str += "  "
+            k++
+     
+        }
+
+
+        console.log(str)
+        i++
+        e++
+    }
+}
+
+zad1()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////2.Funkcja która podniesie do 2 potęgi wszystkie wartości znajdujące się pod indeksami  podzielnymi przez 5 (lista z zadania 1) Zwróć tą listę.
+
+// function zad2(){
+//     let i = 0
+//     let e = 1
+//     let x = []
+
+//     while (i<10){
+//         let k = 1
+//         let str = ""
+
+
+//         while (k<=10){
+//             let f = k*e
+//             str +=(String(f))
+//             str += "  "
+//             k++
+//             x.push(f)
+//         }
+
+
+//         console.log(str)
+//         i++
+//         e++
+//     }
+
+//     console.log(x)
+
+//     for (let u = 1; u<x.length; u++){
+//         if (u % 5 == 0){
+//             x[u] = x[u]**2
+//         }
+//     }
+
+//     console.log(x)
+// }
+
+// zad2()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // 3.Napisz funkcję która powie których liczb jest więcej (lista z zadania 2)
+// // Jeśli parzystych zwróć "PA", jeśli nieparzystych: "NP":
+
+
+// function zad3(){
+//     let i = 0
+//     let e = 1
+//     let x = []
+
+//     while (i<10){
+//         let k = 1
+//         let str = ""
+
+
+//         while (k<=10){
+//             let f = k*e
+//             str +=(String(f))
+//             str += "  "
+//             k++
+//             x.push(f)
+//         }
+
+
+//         console.log(str)
+//         i++
+//         e++
+//     }
+
+//     console.log(x)
+
+//     for (let u = 0; u<x.length; u++){
+//         if (u % 5 == 0){
+//             x[u] = x[u]**2
+//         }
+//     }
+
+//     console.log(x)
+
+
+//     let p = 0
+//     let k = 0
+
+//     for (let a = 0; a<x.length; a++){
+//         if (x[a]%2 == 0){
+//             p++
+//         }
+//         else{
+//             k++
+//         }
+
+//     }
+
+//     let str2 = ""
+//     if (p>k){
+//         str2= "PA"
+
+//     }
+//     else{
+//         str2 = "NP"
+//     }
+
+//     console.log(str2)
+// }
+
+// zad3()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //5.Odnajdź 3 największą liczbę ((lista z zadania 2)). Możesz korzystać z wbudowanych metod. 
+
+
+// function zad5(){
+//     let i = 0
+//     let e = 1
+//     let x = []
+
+//     while (i<10){
+//         let k = 1
+//         let str = ""
+
+
+//         while (k<=10){
+//             let f = k*e
+//             str +=(String(f))
+//             str += "  "
+//             k++
+//             x.push(f)
+//         }
+
+
+//         console.log(str)
+//         i++
+//         e++
+//     }
+
+//     console.log(x)
+
+//     for (let u = 1; u<x.length; u++){
+//         if (u % 5 == 0){
+//             x[u] = x[u]**2
+//         }
+//     }
+
+//     console.log(x)
+
+
+//     let r = []
+//     let mxx = x[0]
+
+//     for(let h = 0;h<x.length;h++){
+
+//         if(x[h]>mxx){
+//             mxx = x[h]
+//             r.push(x[h])
+//         }
+            
+//     }
+
+//     console.log(r)
+
+//     let max3 = r[(r.length-3)]
+
+//     console.log(max3)
+// }
+
+    
+
+
+// zad5()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //6.Rzołuż liczbę n na czyniki pierwsze, zwróć listę zawierające te liczby. 
+
+
+// function rozklad(n){
+
+//     let t = []
+
+//     for(w = 2; w<=n;){
+//         if(n%w ==0){
+//             n = n/w
+//             t.push(w)
+//         }
+//         else{
+//             w++
+//         }
+//     }
+
+//     console.log(t)
+// }
+
+// rozklad(100)
+
+
+
+
+
+
+
+
+
+
+
+
